@@ -23,8 +23,8 @@ def flames(f,g,b,re,cr,your):
     print(ff.renderText(relation));print("\n\n\n\n\n\n")
 flag=0
 from pyfiglet import Figlet
-f = Figlet(font='slant')
-print (f.renderText('FLAMES'))
+ss = Figlet(font='slant')
+print (ss.renderText('FLAMES'))
 while(flag==0):
     print('ENTER 0 TO EXIT');print()
     print('ENTER 7 TO PLAY');print()
@@ -44,6 +44,6 @@ while(flag==0):
         print('again enter enter a valid key'.upper());print()
         flag=input()
         if flag!='0':break
-print(f.renderText('BYE BYE'));print()
+print(ss.renderText('BYE BYE'));print()
 ff= Figlet()
 print (ff.renderText('We\'ll play later.....come with new crush'))
